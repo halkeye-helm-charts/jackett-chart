@@ -37,12 +37,14 @@ spec:
               containerPort: 9117
               protocol: TCP
           livenessProbe:
-            httpGet:
-              path: /
+            initialDelaySeconds: 15
+            periodSeconds: 5
+            tcpSocket:
               port: http
           readinessProbe:
-            httpGet:
-              path: /
+            initialDelaySeconds: 15
+            periodSeconds: 5
+            tcpSocket:
               port: http
           volumeMounts:
           - name: jackett-config
