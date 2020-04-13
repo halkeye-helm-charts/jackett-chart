@@ -4,6 +4,8 @@
 
 replicaCount: 1
 
+strategyType: Recreate
+
 image:
   repository: linuxserver/jackett
   tag: latest
