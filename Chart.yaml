@@ -3,7 +3,7 @@ appVersion: "latest"
 description: API Support for your favorite torrent trackers.
 name: jackett
 icon: https://raw.githubusercontent.com/Jackett/Jackett/master/src/Jackett.Common/Content/jacket_medium.png
-version: 0.1.2
+version: 0.1.3
 keywords:
   - jackett
 home: https://github.com/Jackett/Jackett
