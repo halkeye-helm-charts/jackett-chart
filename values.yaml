@@ -6,8 +6,8 @@ replicaCount: 1
 
 image:
   repository: linuxserver/jackett
-  tag: latest
-  pullPolicy: IfNotPresent
+  tag: "{{ .Chart.AppVersion }}"
+  pullPolicy: Always
 
 nameOverride: ""
 fullnameOverride: ""
